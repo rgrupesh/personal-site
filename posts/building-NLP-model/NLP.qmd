@@ -16,7 +16,6 @@ categories:
     regex,
     Transformers,
     embeddings,
-    Machine Learning,
     Deep Learning
   ]
 ---
@@ -132,4 +131,4 @@ Long Short Term Memory(LSTM) has three gates that are input, output, and forget 
 
 Transformers architecture uses attention mechanism to handle long-range dependencies. This architecture was published in the paper [Attention Is All You Need.](https://arxiv.org/pdf/1706.03762.pdf)
 
-Also, I have written whole about this architecture [here.](https://rupeshgelal.com.np/attention/attention-is-all-you-need/)
+Also, I have written whole about this architecture [here.](https://rupeshgelal.com.np/posts/transformer/attention-is-all-you-need)

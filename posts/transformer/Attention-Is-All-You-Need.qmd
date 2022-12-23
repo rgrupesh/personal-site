@@ -12,9 +12,7 @@ categories:
     BERT,
     GPT,
     SOTA,
-    Deep Learning,
-    Attention,
-    multi-headed,
+    Deep Learning
   ]
 ---
 

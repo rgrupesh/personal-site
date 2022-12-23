@@ -3,7 +3,7 @@ title: Choosing the Best Mobile App Framework
 image: mobile.jpeg
 author: "Rupesh Gelal"
 date: 2020-06-08 
-categories: [iOS,Android,Xcode,Android Studio,Angularjs,React,Xamarin,React native,Flutter]
+categories: [iOS,Android,JavaScript]
 ---
 
 Choosing a mobile develpoment framework can be daunting at times.There are many option and consideration to make outside the framework.
