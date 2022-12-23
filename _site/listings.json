@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/building-NLP-model/NLP.html",
+      "/posts/transformer/Attention-Is-All-You-Need.html",
+      "/posts/BERT-vs-XLNET/BERT-vs-XLNet.html",
+      "/posts/full-stack/Full-Stack-JavaScipt.html",
+      "/posts/mobile-development/mob-dev-framework.html",
+      "/posts/numpy-pandas/index.html"
+    ]
+  }
+]

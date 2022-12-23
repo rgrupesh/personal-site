@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/about.html</loc>
+    <lastmod>2022-12-23T10:07:36.005Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/posts/full-stack/Full-Stack-JavaScipt.html</loc>
+    <lastmod>2022-12-23T10:07:36.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/posts/transformer/Attention-Is-All-You-Need.html</loc>
+    <lastmod>2022-12-23T10:07:36.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/posts/building-NLP-model/NLP.html</loc>
+    <lastmod>2022-12-23T10:07:36.953Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/posts/mobile-development/mob-dev-framework.html</loc>
+    <lastmod>2022-12-23T10:07:37.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/posts/numpy-pandas/index.html</loc>
+    <lastmod>2022-12-23T10:07:37.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/posts/BERT-vs-XLNET/BERT-vs-XLNet.html</loc>
+    <lastmod>2022-12-23T10:07:38.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coruscating-dragon-2d694f.netlify.app/index.html</loc>
+    <lastmod>2022-12-23T10:07:38.417Z</lastmod>
+  </url>
+</urlset>
