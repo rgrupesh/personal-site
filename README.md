@@ -1,2 +1,2 @@
 # personal-site
-My site with Docusaurus
+Rupesh's Blog
