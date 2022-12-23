@@ -23,4 +23,4 @@ I am a senior pursuing Bachelor of Engineering in Computer Engineering at Nepal 
 - LFX Mentee | **The Linux Foundation** | June 2022 - Aug. 2022
 - **Machine Learning Intern** | Prodigal AI Technologies Pvt. Ltd. | Feb. 2022 - Apr. 2022
 - ML Project Intern | **Indian Institute of Technology, Indore** | Jul. 2021 - Oct. 2021
-- **Open Source Contributor** | GitHub | Organizations: Ivy, Karmada, PolyPhy, Internet Archive, UNICEF, OCaml, Mboalab| 2019 - Present
+- **Open Source Contributor** | GitHub | **Organizations**: Ivy, Karmada, PolyPhy, Internet Archive, UNICEF, OCaml, Mboalab| 2019 - Present
