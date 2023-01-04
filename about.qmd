@@ -16,10 +16,10 @@ about:
 
 ---
 
-I am a senior pursuing Bachelor of Engineering in Computer Engineering at Nepal Engineering College. My core focus and experience lie in the areas of Machine Learning, Deep Learning (especially Natural Language Processing), and web development, and I would like to work around these domains in the future.
+I am a senior pursuing Bachelor of Engineering in Computer Engineering at Nepal Engineering College. My core focus and experience lie in the areas of Machine Learning and Deep Learning (especially Natural Language Processing), and I would like to work around these domains in the future.
 
 ### Experience:
-
+- **Data Science Intern** | FutureSmart AI | Jan 2023 - Present
 - LFX Mentee | **The Linux Foundation** | June 2022 - Aug. 2022
 - **Machine Learning Intern** | Prodigal AI Technologies Pvt. Ltd. | Feb. 2022 - Apr. 2022
 - ML Project Intern | **Indian Institute of Technology, Indore** | Jul. 2021 - Oct. 2021
