@@ -2,7 +2,7 @@
 title: BERT vs. XLNet
 image: language.jpg
 author: "Rupesh Gelal"
-date: 2020-08-10
+date: 2021-01-01
 categories:
   [
     Deep Learning,

@@ -2,7 +2,7 @@
 title: Building NLP model 
 image: nlp.jpg
 author: "Rupesh Gelal"
-date: 2021-10-04
+date: 2022-05-04
 categories:
   [
     RNN,

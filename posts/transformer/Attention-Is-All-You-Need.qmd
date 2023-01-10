@@ -2,7 +2,7 @@
 title: "Attention Is All You Need"
 image: attention-V.png
 author: "Rupesh Gelal"
-date: 2021-01-01
+date: 2021-10-04
 categories:
   [
     Transfomer,
