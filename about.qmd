@@ -10,6 +10,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/rupeshgelal
+    - icon: book-half
+      text: Hashnode
+      href: https://hashnode.com/@rgrupesh 
     - icon: twitter
       text: Twitter
       href: https://twitter.com/2L8IWUN_

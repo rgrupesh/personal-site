@@ -11,7 +11,9 @@ website:
       - icon: twitter
         href: https://twitter.com/2L8IWUN_
       - icon: linkedin
-        href: https://linkedin.com/in/rupeshgelal  
+        href: https://linkedin.com/in/rupeshgelal
+      - icon: book-half
+        href: https://hashnode.com/@rgrupesh     
 format:
   html:
     theme: yeti
