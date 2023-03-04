@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/fine-tuning-gpt3/finetune.html",
+      "/posts/exploring_NLP/ex_NLP.html",
       "/posts/building-NLP-model/NLP.html",
       "/posts/transformer/Attention-Is-All-You-Need.html",
       "/posts/BERT-vs-XLNET/BERT-vs-XLNet.html",
