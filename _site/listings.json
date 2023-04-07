@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/GPT-3-SQL/index.html",
+      "/posts/NLP-trend/index.html",
       "/posts/building-NLP-model/NLP.html",
       "/posts/transformer/Attention-Is-All-You-Need.html",
       "/posts/BERT-vs-XLNET/BERT-vs-XLNet.html",

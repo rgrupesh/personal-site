@@ -56,6 +56,20 @@
     "text": "3. Building Model\nOnce we have a numeric representation of our data, we should look to build the model. There are many options to choose from. We should always choose according to our problem statement. Some algorithm works well on one set of a problem but poor on other.\n\nTraditional Machine Learning algorithms\nThe traditional machine learning algorithm like Naive Bayes, Random Forest, Support Vector Machine, XGBoost can also be used in NLP tasks.\n\n\nRecurrent neural network(RNN)\nRecurrent Neural Networks work well with text or sequential data. The vanilla RNN or the advanced form of RNN like LSTM and GRU can be used to train our NLP model. The latter prevents issues like vanishing and exploding gradient.\nGRU\nGated Recurrent Unit(GRU) has two gates that are reset gate and update gate. GRU is relatively new and in some cases, performance is as good as LSTM even having such a simple architecture. \nLSTM\nLong Short Term Memory(LSTM) has three gates that are input, output, and forget gate. LSTM is still preferred if we need to train our model for longer sequences.\n\n\n\nTransformers\nTransformers architecture uses attention mechanism to handle long-range dependencies. This architecture was published in the paper Attention Is All You Need.\nAlso, I have written whole about this architecture here."
   },
   {
+    "objectID": "posts/GPT-3-SQL/index.html",
+    "href": "posts/GPT-3-SQL/index.html",
+    "title": "Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide",
+    "section": "",
+    "text": "Hashnode link: Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide"
+  },
+  {
+    "objectID": "posts/NLP-trend/index.html",
+    "href": "posts/NLP-trend/index.html",
+    "title": "Exploring the Latest Advancements in Natural Language Processing: Research, Applications, and Future Trends",
+    "section": "",
+    "text": "Hashnode link: Exploring the Latest Advancements in Natural Language Processing: Research, Applications, and Future Trends"
+  },
+  {
     "objectID": "posts/mobile-development/mob-dev-framework.html",
     "href": "posts/mobile-development/mob-dev-framework.html",
     "title": "Choosing the Best Mobile App Framework",
@@ -81,6 +95,6 @@
     "href": "index.html",
     "title": "Welcome to my Blog!",
     "section": "",
-    "text": "Building NLP model\n\n\n\n\n\n\n\nRNN\n\n\nLSTM\n\n\nGRU\n\n\nNLP\n\n\nSOTA\n\n\nword2vec\n\n\nGloVe\n\n\nNLTK\n\n\nregex\n\n\nTransformers\n\n\nembeddings\n\n\nDeep Learning\n\n\n\n\n\n\n\n\n\n\n\nMay 4, 2022\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nAttention Is All You Need\n\n\n\n\n\n\n\nTransfomer\n\n\nEncoder\n\n\nDecoder\n\n\nNLP\n\n\nBERT\n\n\nGPT\n\n\nSOTA\n\n\nDeep Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 4, 2021\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nBERT vs. XLNet\n\n\n\n\n\n\n\nDeep Learning\n\n\nNLP\n\n\nTransformers\n\n\nXLNet\n\n\nBERT\n\n\nTransfer Learning\n\n\nSOTA\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2021\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nFull Stack Web Development with JavaScript\n\n\n\n\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\nAngular\n\n\nReact\n\n\nVue\n\n\nNode.js\n\n\nExpress\n\n\nMongoDB\n\n\n\n\n\n\n\n\n\n\n\nJul 24, 2020\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nChoosing the Best Mobile App Framework\n\n\n\n\n\n\n\niOS\n\n\nAndroid\n\n\nJavaScript\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2020\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nNumPy and Pandas\n\n\n\n\n\n\n\nPython\n\n\nNumPy\n\n\nPandas\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2020\n\n\nRupesh Gelal\n\n\n\n\n\n\nNo matching items"
+    "text": "Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide\n\n\n\n\n\n\n\nGPT-3\n\n\nSQL\n\n\nNLP\n\n\nFinetuning\n\n\nNL2SQL\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nExploring the Latest Advancements in Natural Language Processing: Research, Applications, and Future Trends\n\n\n\n\n\n\n\nNLP\n\n\nTransformers\n\n\nchatGPT\n\n\n\n\n\n\n\n\n\n\n\nJan 23, 2023\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nBuilding NLP model\n\n\n\n\n\n\n\nRNN\n\n\nLSTM\n\n\nGRU\n\n\nNLP\n\n\nword2vec\n\n\nGloVe\n\n\nTransformers\n\n\n\n\n\n\n\n\n\n\n\nMay 4, 2022\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nAttention Is All You Need\n\n\n\n\n\n\n\nNLP\n\n\nBERT\n\n\nGPT\n\n\n\n\n\n\n\n\n\n\n\nOct 4, 2021\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nBERT vs. XLNet\n\n\n\n\n\n\n\nNLP\n\n\nTransformers\n\n\nXLNet\n\n\nBERT\n\n\nTransfer Learning\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2021\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nFull Stack Web Development with JavaScript\n\n\n\n\n\n\n\nHTML/CSS\n\n\nJavaScript\n\n\nReact\n\n\nVue\n\n\nNode.js\n\n\nExpress\n\n\nMongoDB\n\n\n\n\n\n\n\n\n\n\n\nJul 24, 2020\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nChoosing the Best Mobile App Framework\n\n\n\n\n\n\n\niOS\n\n\nAndroid\n\n\nJavaScript\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2020\n\n\nRupesh Gelal\n\n\n\n\n\n\n  \n\n\n\n\nNumPy and Pandas\n\n\n\n\n\n\n\nPython\n\n\nNumPy\n\n\nPandas\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2020\n\n\nRupesh Gelal\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -5,13 +5,11 @@ author: "Rupesh Gelal"
 date: 2021-01-01
 categories:
   [
-    Deep Learning,
     NLP,
     Transformers,
     XLNet,
     BERT,
-    Transfer Learning,
-    SOTA
+    Transfer Learning
   ]
 ---
 

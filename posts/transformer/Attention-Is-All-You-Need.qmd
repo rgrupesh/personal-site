@@ -5,14 +5,9 @@ author: "Rupesh Gelal"
 date: 2021-10-04
 categories:
   [
-    Transfomer,
-    Encoder,
-    Decoder,
     NLP,
     BERT,
-    GPT,
-    SOTA,
-    Deep Learning
+    GPT
   ]
 ---
 

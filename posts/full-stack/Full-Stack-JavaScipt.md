@@ -3,7 +3,7 @@ title: Full Stack Web Development with JavaScript
 image: full-stack-javascript.jpg
 date: 2020-07-24 
 author: "Rupesh Gelal"
-categories: [HTML, CSS, JavaScript, Angular, React, Vue, Node.js, Express, MongoDB]
+categories: [HTML/CSS, JavaScript, React, Vue, Node.js, Express, MongoDB]
 ---
 
 JavaScript has come long way in the last 20 years. JavaScript engine were orginally used only in web browsers, but they are now embedded even in some servers, usually via [Node.js](https://nodejs.org/en/). This evolution has made JavaScript a universal language.

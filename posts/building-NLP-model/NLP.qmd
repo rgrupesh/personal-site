@@ -9,14 +9,9 @@ categories:
     LSTM,
     GRU,
     NLP,
-    SOTA,
     word2vec,
     GloVe,
-    NLTK,
-    regex,
-    Transformers,
-    embeddings,
-    Deep Learning
+    Transformers
   ]
 ---
 
