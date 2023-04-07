@@ -1,0 +1,35 @@
+{
+  "about.qmd": {
+    "about.html": "7301b6ba"
+  },
+  "posts/full-stack/Full-Stack-JavaScipt.md": {
+    "Full-Stack-JavaScipt.html": "a98f9367"
+  },
+  "posts/transformer/Attention-Is-All-You-Need.qmd": {
+    "Attention-Is-All-You-Need.html": "51c5f6ef"
+  },
+  "posts/building-NLP-model/NLP.qmd": {
+    "NLP.html": "294725ae"
+  },
+  "posts/mobile-development/mob-dev-framework.md": {
+    "mob-dev-framework.html": "8dbce753"
+  },
+  "posts/numpy-pandas/index.qmd": {
+    "index.html": "47d8ddd3"
+  },
+  "posts/BERT-vs-XLNET/BERT-vs-XLNet.qmd": {
+    "BERT-vs-XLNet.html": "ab5e6664"
+  },
+  "index.qmd": {
+    "index.html": "f0adc4a9"
+  },
+  "LICENCE.md": {
+    "LICENCE.html": "4a008905"
+  },
+  "posts/GPT-3-SQL/index.qmd": {
+    "index.html": "3ae51d66"
+  },
+  "posts/NLP-trend/index.qmd": {
+    "index.html": "315fa4b4"
+  }
+}
