@@ -31,5 +31,8 @@
   },
   "posts/NLP-trend/index.qmd": {
     "index.html": "315fa4b4"
+  },
+  "posts/azure-invoice/azure.qmd": {
+    "azure.html": "47877cba"
   }
 }

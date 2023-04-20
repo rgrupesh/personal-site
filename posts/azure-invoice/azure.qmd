@@ -1,0 +1,10 @@
+---
+title: "Invoice Processing with Azure OCR and GPT-4: An In Depth Step-by-Step Guide"
+author: "Rupesh Gelal"
+date: "2023-04-16"
+image: Azure-OCR.jpg
+categories: [Azure, OCR, Computer Vision, invoice processing, GPT 4]
+---
+
+
+Hashnode link: [Invoice Processing with Azure OCR and GPT-4: An In Depth Step-by-Step Guide](https://blog.futuresmart.ai/invoice-processing-with-azure-ocr-and-gpt-4-an-in-depth-step-by-step-guide)

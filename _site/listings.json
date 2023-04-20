@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/azure-invoice/azure.html",
       "/posts/GPT-3-SQL/index.html",
       "/posts/NLP-trend/index.html",
       "/posts/building-NLP-model/NLP.html",
