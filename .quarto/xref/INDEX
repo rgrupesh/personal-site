@@ -34,5 +34,8 @@
   },
   "posts/azure-invoice/azure.qmd": {
     "azure.html": "47877cba"
+  },
+  "posts/langchain-tabular/langchain.qmd": {
+    "langchain.html": "817db107"
   }
 }

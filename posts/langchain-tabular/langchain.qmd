@@ -1,0 +1,10 @@
+---
+title: "Langchain's Pandas & CSV Agents: Revolutionizing Data Querying using OpenAI LLMs"
+author: "Rupesh Gelal"
+date: "2023-05-12"
+image: cover.png
+categories: [Langchain, Pandas, CSV, OpenAI]
+---
+
+
+Hashnode link: [Langchain's Pandas & CSV Agents: Revolutionizing Data Querying using OpenAI LLMs](https://blog.futuresmart.ai/langchains-pandas-csv-agents-revolutionizing-data-querying-using-openai-llms)

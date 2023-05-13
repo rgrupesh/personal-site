@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/langchain-tabular/langchain.html",
       "/posts/azure-invoice/azure.html",
       "/posts/GPT-3-SQL/index.html",
       "/posts/NLP-trend/index.html",
