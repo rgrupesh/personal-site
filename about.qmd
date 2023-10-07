@@ -23,7 +23,7 @@ I am passionate about new technologies and have a strong focus and experience in
 I am eager to continue working in these domains in the future and always looking for opportunities to expand my knowledge and skills in these areas.
 
 ### Experience:
-- **NLP Engineer** | Neon Digital Media  | Jul 2023 - Present
+- **NLP Engineer** | Neon Digital Media  | Jul 2023 - Present.
 - **Data Science Intern** | FutureSmart AI | Jan 2023 - June 2023
 - LFX Mentee | **The Linux Foundation** | June 2022 - Aug. 2022
 - **Machine Learning Intern** | Prodigal AI Technologies Pvt. Ltd. | Feb. 2022 - Apr. 2022
