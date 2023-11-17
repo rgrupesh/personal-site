@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am passionate about new technologies and have a strong focus and experience in the areas of Machine Learning and Deep Learning, particularly in Natural Language Processing. I am eager to continue working in these domains in the future and always looking for opportunities to expand my knowledge and skills in these areas.\n\nExperience:\n\nNLP Engineer | Neon Digital Media | Jul 2023 - Present\nData Science Intern | FutureSmart AI | Jan 2023 - June 2023\nLFX Mentee | The Linux Foundation | June 2022 - Aug. 2022\nMachine Learning Intern | Prodigal AI Technologies Pvt. Ltd. | Feb. 2022 - Apr. 2022\nML Project Intern | Indian Institute of Technology, Indore | Jul. 2021 - Oct. 2021\nOpen Source Contributor | GitHub | Organizations: Ivy, Karmada, PolyPhy, Internet Archive, UNICEF, OCaml, Mboalab| 2019 - Present"
+    "text": "I am passionate about new technologies and have a strong focus and experience in the areas of Machine Learning and Deep Learning, particularly in Natural Language Processing. I am eager to continue working in these domains in the future and always looking for opportunities to expand my knowledge and skills in these areas.\n\nExperience:\n\nNLP Engineer | Neon Digital Media | Jul 2023 - Present.\nAssociate Data Scientist | FutureSmart AI | Jan 2023 - June 2023\nLFX Mentee | The Linux Foundation | June 2022 - Aug. 2022\nMachine Learning Intern | Prodigal AI Technologies Pvt. Ltd. | Feb. 2022 - Apr. 2022\nML Project Intern | Indian Institute of Technology, Indore | Jul. 2021 - Oct. 2021\nOpen Source Contributor | GitHub | Organizations: Ivy, Karmada, PolyPhy, Internet Archive, UNICEF, OCaml, Mboalab| 2019 - Present"
   },
   {
     "objectID": "LICENCE.html",
@@ -12,6 +12,13 @@
     "title": "Welcome to my Blog!",
     "section": "",
     "text": "MIT License\nCopyright (c) 2022 Rupesh Gelal\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "posts/langchain-tabular/langchain.html",
+    "href": "posts/langchain-tabular/langchain.html",
+    "title": "Langchain’s Pandas & CSV Agents: Revolutionizing Data Querying using OpenAI LLMs",
+    "section": "",
+    "text": "Hashnode link: Langchain’s Pandas & CSV Agents: Revolutionizing Data Querying using OpenAI LLMs"
   },
   {
     "objectID": "posts/full-stack/Full-Stack-JavaScipt.html",
@@ -28,53 +35,11 @@
     "text": "Attention Is All You Need is a breakthrough Natural Language Processing(NLP) paper published by the Google Research team in 2017. The paper proposed a transformer architecture consisting of six encoder and decoder blocks stacked on top of each other. Since then it has taken the NLP world by storm. They are used in many applications like machine language translation, conversational chatbots, and even to power better search engines. These days we see this architecture used in computer vision as well.\nLet’s begin by looking at the model as a single black box where we need to perform language translation(say English to Nepali). What is inside the black box? Let’s find out.\n\nThere are encoder and decoder modules in the transformer. The encoding component is a stack of six encoders and the decoding component is the same but with a decoder. Each encoder is connected to all six decoders.\nThe encoder itself consists of two layers: self-attention and feed-forward layer. The self-attention layer of the first encoder takes embedded input. Each input word is embedded into a vector of size 512, before passing that to the transformer. While giving input to the model along with the embedding vector, the positional vector is added to account for the order of the words in the input sequence. After that, the result of the first self-attention is passed to the first feed-forward neural network within the first encoder block. The output of the first feed-forward layer is passed to the second encoder and so on.\n\nThe self-attention layer deals with the subtlety of the language. Let’s dive deeper into the self-attention layer.\nThe first step is to create three addition vectors named as key, query, and value. These vectors are just the abstraction to calculate the self-attention score. After that, we calculate the score by taking the dot product of query1key1, query1key2, and so on. We have a key vector of all input words since inputs are given parallelly. Also, we divide each score by sqrt of the dimension of a key vector which is 8, as the dimension of a key vector discussed in the paper is 64. Further, the result is passed through softmax operation so all the scores are positive and add up to 1. The output of softmax is multiplied with the value vector(v1). Then, the result is summed up to produce the self-attention output of the first word( Say Z1). This Z1 is sent to feed-forward network. This process is repeated for every input word.\n\nTo further catch the subtlety of the language, the paper improves the self-attention layer by adding a mechanism called “multi-headed” attention. It is the same as self-attention but with multiple keys, queries, and values matrix. The paper uses 8 attention heads. So, we will get 8 different z1 matrices for each input word. We concat all of them. During training, we initialize another matrix(W0) which we will use to multiply our concatenated matrix to get a single Z1.\nThe decoder is similar to that of the encoder but with one additional layer. The new layer, the encoder-decoder attention layer, is sandwiched between self-attention and feed-forward neural network. E-D layer creates queries matrix from the layer below it and takes keys and values from the output of the encoder and does the same calculation as multi-headed self-attention. The self-attention layer in the decoder is only allowed to know the earlier position of the output sequence. This is done by masking future positions before the softmax step.\nLikewise, layers are normalized after every self-attention and feed-forward layer. Also, each encoder and decoder has a residual connection around it.\n\nLastly, the output of the decoder is passed through the linear and softmax layer. The linear layer is a simply connected neural network. It is as wide as the vocab size of our model. Each cell here corresponds to unique words. This layer is passed to the softmax, which turns all the scores into probability. And, the word with the highest probability is chosen."
   },
   {
-    "objectID": "posts/building-NLP-model/NLP.html",
-    "href": "posts/building-NLP-model/NLP.html",
-    "title": "Building NLP model",
+    "objectID": "posts/numpy-pandas/index.html",
+    "href": "posts/numpy-pandas/index.html",
+    "title": "NumPy and Pandas",
     "section": "",
-    "text": "With the availability huge amount of text data, NLP(Natural Language Processing) has been gaining popularity in recent years. In this article, I will be explaining the necessary steps to develop NLP model. The development of the NLP model can be broadly classified into three categories: preprocessing data, generating embedding, and building model.\nLet’s dive into these!"
-  },
-  {
-    "objectID": "posts/building-NLP-model/NLP.html#data-preprocessing",
-    "href": "posts/building-NLP-model/NLP.html#data-preprocessing",
-    "title": "Building NLP model",
-    "section": "1. Data Preprocessing",
-    "text": "1. Data Preprocessing\nData preprocessing is an initial and crucial step in machine learning. It is the process of transforming raw data into a useful and efficient format. Some of the tasks include removing special characters, website links, stop words, performing tokenization, normalization.\n\nCleaning\nIn this step, we remove website links, special characters, numbers, emojis. We only want text data.\n\n\nTokenization\nTokenization means converting your text/sentences into small units. For instance:\n\nsentence\n\n\njk rowling wishes snape happy birthday magical way\n\n\ntokenized sentence\n\n\n['jk', 'rowling', 'wishes', 'snape', 'happy', 'birthday', 'magical', 'way']]\n\n\n\nNormalization\nNormalization is the process of converting a word to its root form. For instance: ‘plays’, ‘played’, ‘playing’ all essentially means to play, so we convert these words to ‘play’. It is an essential part of feature engineering where we convert higher dimension features to low dimensional space.\n\nstemming\n\nIt is the process of converting word to its non changing form.\n\nprocessing-->process\nnatural-->natur\n\n\nlemmatization\n\nIt is the process of converting word to its dictionary form.\n\nbetter-->good\nwomen-->woman\n\n\n\nStopwords\nStopwords do not add much value to our NLP model. So, we remove all of them. This helps us to make our model more robust.\nYou can check the list of English stopwords here."
-  },
-  {
-    "objectID": "posts/building-NLP-model/NLP.html#building-embedding",
-    "href": "posts/building-NLP-model/NLP.html#building-embedding",
-    "title": "Building NLP model",
-    "section": "2. Building Embedding",
-    "text": "2. Building Embedding\nWord embedding is a representation of words where similar words have similar representations in vector space. Here, words are represented as real-valued vectors.\n\nBOW\nBag of Words(BOW) is a technique to convert a word into a vector, based on the frequency of the word. It creates a vocabulary set and captures the distribution of words in each document.\n\n\n\nTF-IDF\nTerm Frequency - Inverse Document Frequency(TF-IDF) is a method of representing word vectors where the words that are unique to each document(instance of corpus) are given higher importance than common occurring words. It is calculated by:\n\nTF-IDF = TF * IDF\nwhere, TF = probability of a word in a specific document\nIDF = probability of that word in overall corpus\n\n\n\nWord2Vec\nWord2Vec is a pre-trained model developed by Google which was trained on 300 million words of news corpus. It was trained using both the CBOW(Continous Bag of Words) and Skip-gram technique. In CBOW, the target word is predicted using context word and in skip-gram, we use target word to predict context word. Word2Vec represents each word in 300-dimensional vector space which helps to catch the subtle relationship between words. Paper\n\n\n\nGloVe\nGloVe stands for global vectors. It is an embedding technique that uses a co-occurrence(how frequent words appear together) matrix to build word vectors at the global level. Using this sort of matrix effectively captures the meaning of the words but the size of that matrix becomes huge. The GloVe paper addresses this issue by factorizing that matrix to lower dimension. Paper"
-  },
-  {
-    "objectID": "posts/building-NLP-model/NLP.html#building-model",
-    "href": "posts/building-NLP-model/NLP.html#building-model",
-    "title": "Building NLP model",
-    "section": "3. Building Model",
-    "text": "3. Building Model\nOnce we have a numeric representation of our data, we should look to build the model. There are many options to choose from. We should always choose according to our problem statement. Some algorithm works well on one set of a problem but poor on other.\n\nTraditional Machine Learning algorithms\nThe traditional machine learning algorithm like Naive Bayes, Random Forest, Support Vector Machine, XGBoost can also be used in NLP tasks.\n\n\nRecurrent neural network(RNN)\nRecurrent Neural Networks work well with text or sequential data. The vanilla RNN or the advanced form of RNN like LSTM and GRU can be used to train our NLP model. The latter prevents issues like vanishing and exploding gradient.\nGRU\nGated Recurrent Unit(GRU) has two gates that are reset gate and update gate. GRU is relatively new and in some cases, performance is as good as LSTM even having such a simple architecture. \nLSTM\nLong Short Term Memory(LSTM) has three gates that are input, output, and forget gate. LSTM is still preferred if we need to train our model for longer sequences.\n\n\n\nTransformers\nTransformers architecture uses attention mechanism to handle long-range dependencies. This architecture was published in the paper Attention Is All You Need.\nAlso, I have written whole about this architecture here."
-  },
-  {
-    "objectID": "posts/langchain-tabular/langchain.html",
-    "href": "posts/langchain-tabular/langchain.html",
-    "title": "Langchain’s Pandas & CSV Agents: Revolutionizing Data Querying using OpenAI LLMs",
-    "section": "",
-    "text": "Hashnode link: Langchain’s Pandas & CSV Agents: Revolutionizing Data Querying using OpenAI LLMs"
-  },
-  {
-    "objectID": "posts/azure-invoice/azure.html",
-    "href": "posts/azure-invoice/azure.html",
-    "title": "Invoice Processing with Azure OCR and GPT-4: An In Depth Step-by-Step Guide",
-    "section": "",
-    "text": "Hashnode link: Invoice Processing with Azure OCR and GPT-4: An In Depth Step-by-Step Guide"
-  },
-  {
-    "objectID": "posts/GPT-3-SQL/index.html",
-    "href": "posts/GPT-3-SQL/index.html",
-    "title": "Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide",
-    "section": "",
-    "text": "Hashnode link: Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide"
+    "text": "The NumPy library is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with arrays. Whereas, Pandas library is built on NumPy and provides easy-to-use data structures and data analysis tools for the Python programming language.\n\nInstalling\n\nNumpy - pip install numpy\nPandas - pip install pandas\nNumPy:\n- creating array\n    - a = np.array([1,2,3])\n- Create an array of zeros\n    - np.zeros((3,4))\n- Create an array with random values\n    - np.random.random((2,2))\n- Create an empty array\n    - np.empty((3,2))\n- Transposing Array\n   - i = np.transpose(b)\n- Append items to an array\n   - np.append(h,g)\n- Delete items from an array\n   - np.delete(a,[1])\nPandas:\n- Series\n  - s = pd.Series([3, -5, 7, 4], index=['a', 'b', 'c', 'd'])\n- DataFrame\n   - data = {'Country': ['Belgium', 'India', 'Brazil'], 'Capital': ['Brussels', 'New Delhi', 'Brasília'],'Population': [11190846, 1303171035, 207847528]}\n   - df = pd.DataFrame(data,columns=['Country', 'Capital', 'Population'])\n- Read and Write to CSV\n   - pd.read_csv('file.csv', header=None, nrows=5)\n   - df.to_csv('myDataFrame.csv')\n- Read and Write to Excel\n   - pd.read_excel('file.xlsx')\n   - pd.to_excel('dir/myDataFrame.xlsx', sheet_name='Sheet1')\n- Info on DataFrame\n  - df.info()"
   },
   {
     "objectID": "posts/NLP-trend/index.html",
@@ -91,11 +56,46 @@
     "text": "Choosing a mobile develpoment framework can be daunting at times.There are many option and consideration to make outside the framework.\nConsideration: - Time to Market - Development Cost - Maintaince Cost - App Performance - Feature Availabilty - 3rd Party Risk\n\n1st Party Native App:\n\nGoogle Android and Apple iOS are leading mobile operating system. Android is the leading mobile OS market with almost 75 percent share. Both Android and iOS jointly possess almost 99 percent of global market share.\n\nApple makes Xcode development toolkit that allows us to develop iOS app using Objective-C and Swift.Similary, Android App can be developed using Android Studio using Java and Kotlin.Merits of using 1st Party Native includes:\n\nNative UI/UX\nNew feature or API right after release\n\n\nProgressive Web App\n\nProgressive Web App is an app built from the web technologies like HTML, CSS, and JavaScript, but with a feel and functionality that rivals an actual native app.Frameworks includes: Angularjs, React.\n\nDemerits - Slower than native app - UI/UX limitation\nMerits - Cheaper to develop,deploy - Require less storage - No store required\n\nCross-Platform Native Apps\n\nCross-Platform Native Apps are created using Xamarin,React Native,Flutter. These frameworks not only allows us to create totally native application that gives us access to every single iOS and Android API but also allows us to write the app in same code base so that we can share code between iOS and Android.\n\n\nMicrosoft\n\nXamarin\nLanguage: .NET, C#, F#\n\nFacebook\n\nReact Native\n\nLanguage: JavaScript\n\nGoogle\n\nFlutter\nLanguage: DART"
   },
   {
-    "objectID": "posts/numpy-pandas/index.html",
-    "href": "posts/numpy-pandas/index.html",
-    "title": "NumPy and Pandas",
+    "objectID": "posts/azure-invoice/azure.html",
+    "href": "posts/azure-invoice/azure.html",
+    "title": "Invoice Processing with Azure OCR and GPT-4: An In Depth Step-by-Step Guide",
     "section": "",
-    "text": "The NumPy library is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with arrays. Whereas, Pandas library is built on NumPy and provides easy-to-use data structures and data analysis tools for the Python programming language.\n\nInstalling\n\nNumpy - pip install numpy\nPandas - pip install pandas\nNumPy:\n- creating array\n    - a = np.array([1,2,3])\n- Create an array of zeros\n    - np.zeros((3,4))\n- Create an array with random values\n    - np.random.random((2,2))\n- Create an empty array\n    - np.empty((3,2))\n- Transposing Array\n   - i = np.transpose(b)\n- Append items to an array\n   - np.append(h,g)\n- Delete items from an array\n   - np.delete(a,[1])\nPandas:\n- Series\n  - s = pd.Series([3, -5, 7, 4], index=['a', 'b', 'c', 'd'])\n- DataFrame\n   - data = {'Country': ['Belgium', 'India', 'Brazil'], 'Capital': ['Brussels', 'New Delhi', 'Brasília'],'Population': [11190846, 1303171035, 207847528]}\n   - df = pd.DataFrame(data,columns=['Country', 'Capital', 'Population'])\n- Read and Write to CSV\n   - pd.read_csv('file.csv', header=None, nrows=5)\n   - df.to_csv('myDataFrame.csv')\n- Read and Write to Excel\n   - pd.read_excel('file.xlsx')\n   - pd.to_excel('dir/myDataFrame.xlsx', sheet_name='Sheet1')\n- Info on DataFrame\n  - df.info()"
+    "text": "Hashnode link: Invoice Processing with Azure OCR and GPT-4: An In Depth Step-by-Step Guide"
+  },
+  {
+    "objectID": "posts/building-NLP-model/NLP.html",
+    "href": "posts/building-NLP-model/NLP.html",
+    "title": "Building NLP model",
+    "section": "",
+    "text": "With the availability huge amount of text data, NLP(Natural Language Processing) has been gaining popularity in recent years. In this article, I will be explaining the necessary steps to develop NLP model. The development of the NLP model can be broadly classified into three categories: preprocessing data, generating embedding, and building model.\nLet’s dive into these!"
+  },
+  {
+    "objectID": "posts/building-NLP-model/NLP.html#data-preprocessing",
+    "href": "posts/building-NLP-model/NLP.html#data-preprocessing",
+    "title": "Building NLP model",
+    "section": "1. Data Preprocessing",
+    "text": "1. Data Preprocessing\nData preprocessing is an initial and crucial step in machine learning. It is the process of transforming raw data into a useful and efficient format. Some of the tasks include removing special characters, website links, stop words, performing tokenization, normalization.\n\nCleaning\nIn this step, we remove website links, special characters, numbers, emojis. We only want text data.\n\n\nTokenization\nTokenization means converting your text/sentences into small units. For instance:\n\nsentence\n\n\njk rowling wishes snape happy birthday magical way\n\n\ntokenized sentence\n\n\n['jk', 'rowling', 'wishes', 'snape', 'happy', 'birthday', 'magical', 'way']]\n\n\n\nNormalization\nNormalization is the process of converting a word to its root form. For instance: ‘plays’, ‘played’, ‘playing’ all essentially means to play, so we convert these words to ‘play’. It is an essential part of feature engineering where we convert higher dimension features to low dimensional space.\n\nstemming\n\nIt is the process of converting word to its non changing form.\n\nprocessing--&gt;process\nnatural--&gt;natur\n\n\nlemmatization\n\nIt is the process of converting word to its dictionary form.\n\nbetter--&gt;good\nwomen--&gt;woman\n\n\n\nStopwords\nStopwords do not add much value to our NLP model. So, we remove all of them. This helps us to make our model more robust.\nYou can check the list of English stopwords here."
+  },
+  {
+    "objectID": "posts/building-NLP-model/NLP.html#building-embedding",
+    "href": "posts/building-NLP-model/NLP.html#building-embedding",
+    "title": "Building NLP model",
+    "section": "2. Building Embedding",
+    "text": "2. Building Embedding\nWord embedding is a representation of words where similar words have similar representations in vector space. Here, words are represented as real-valued vectors.\n\nBOW\nBag of Words(BOW) is a technique to convert a word into a vector, based on the frequency of the word. It creates a vocabulary set and captures the distribution of words in each document.\n\n\n\nTF-IDF\nTerm Frequency - Inverse Document Frequency(TF-IDF) is a method of representing word vectors where the words that are unique to each document(instance of corpus) are given higher importance than common occurring words. It is calculated by:\n\nTF-IDF = TF * IDF\nwhere, TF = probability of a word in a specific document\nIDF = probability of that word in overall corpus\n\n\n\nWord2Vec\nWord2Vec is a pre-trained model developed by Google which was trained on 300 million words of news corpus. It was trained using both the CBOW(Continous Bag of Words) and Skip-gram technique. In CBOW, the target word is predicted using context word and in skip-gram, we use target word to predict context word. Word2Vec represents each word in 300-dimensional vector space which helps to catch the subtle relationship between words. Paper\n\n\n\nGloVe\nGloVe stands for global vectors. It is an embedding technique that uses a co-occurrence(how frequent words appear together) matrix to build word vectors at the global level. Using this sort of matrix effectively captures the meaning of the words but the size of that matrix becomes huge. The GloVe paper addresses this issue by factorizing that matrix to lower dimension. Paper"
+  },
+  {
+    "objectID": "posts/building-NLP-model/NLP.html#building-model",
+    "href": "posts/building-NLP-model/NLP.html#building-model",
+    "title": "Building NLP model",
+    "section": "3. Building Model",
+    "text": "3. Building Model\nOnce we have a numeric representation of our data, we should look to build the model. There are many options to choose from. We should always choose according to our problem statement. Some algorithm works well on one set of a problem but poor on other.\n\nTraditional Machine Learning algorithms\nThe traditional machine learning algorithm like Naive Bayes, Random Forest, Support Vector Machine, XGBoost can also be used in NLP tasks.\n\n\nRecurrent neural network(RNN)\nRecurrent Neural Networks work well with text or sequential data. The vanilla RNN or the advanced form of RNN like LSTM and GRU can be used to train our NLP model. The latter prevents issues like vanishing and exploding gradient.\nGRU\nGated Recurrent Unit(GRU) has two gates that are reset gate and update gate. GRU is relatively new and in some cases, performance is as good as LSTM even having such a simple architecture. \nLSTM\nLong Short Term Memory(LSTM) has three gates that are input, output, and forget gate. LSTM is still preferred if we need to train our model for longer sequences.\n\n\n\nTransformers\nTransformers architecture uses attention mechanism to handle long-range dependencies. This architecture was published in the paper Attention Is All You Need.\nAlso, I have written whole about this architecture here."
+  },
+  {
+    "objectID": "posts/GPT-3-SQL/index.html",
+    "href": "posts/GPT-3-SQL/index.html",
+    "title": "Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide",
+    "section": "",
+    "text": "Hashnode link: Fine-Tuning GPT-3 for Natural Language to SQL Conversion: An In-Depth Guide"
   },
   {
     "objectID": "posts/BERT-vs-XLNET/BERT-vs-XLNet.html",
