@@ -23,7 +23,7 @@ I am passionate about new technologies and have a strong focus and experience in
 I am eager to continue working in these domains in the future and always looking for opportunities to expand my knowledge and skills in these areas.
 
 ### Experience:
-- **AI Engineer** | Kroolo  | Nov 2023 - Present
+- **AI Engineer** | Kroolo  | Nov 2023 - Nov 2024
 - **NLP Engineer** | Neon Digital Media  | Apr 2023 - Aug 2023
 - **Associate Data Scientist** | FutureSmart AI | Oct 2022 - Mar 2023
 - LFX Mentee | **The Linux Foundation** | June 2022 - Aug. 2022
